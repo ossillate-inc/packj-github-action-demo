@@ -17,7 +17,7 @@ jobs:
       - run: echo "Run audit triggered automatically by a ${{ github.event_name }} event."
 
       - name: Audit dependencies
-        uses: khoiuna/packj-action@main
+        uses: ossillate-inc/packj-github-action@main
         with:
           DEPENDENCY_FILES: pypi:requirements.txt,npm:package.json
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
