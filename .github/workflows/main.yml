@@ -21,7 +21,7 @@ jobs:
 
       # Audit 
       - name: Audit dependencies
-        uses: ossillate-inc/packj-github-action
+        uses: ossillate-inc/packj-github-action@main
 
         with:
           DEPENDENCY_FILES: pypi:requirements.txt,npm:package.json
