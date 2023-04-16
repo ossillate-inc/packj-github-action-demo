@@ -1,0 +1,24 @@
+{
+  "name": "packj",
+  "version": "1.0.0",
+  "description": "*Packj* (pronounced package) is a command line (CLI) tool to vet open-source software packages for \"risky\" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform [Packj.dev](https://packj.dev) that continuously vets packages and provides free reports.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ossillate-inc/packj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ossillate-inc/packj/issues"
+  },
+  "homepage": "https://github.com/ossillate-inc/packj#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fastify": "^4.4.0"
+  }
+}
